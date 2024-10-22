@@ -2,12 +2,7 @@ import datetime
 import time
 import winsound # permet d'accéder au mecanisme du son fourni par Windows 
 from tkinter import * # module integré à la bibliothéque standard de python qui permet de creer des interface graphiques
-from tkinter import ttk
-from threading import *
 
-def Threading():
-    t1=Thread(target=alarm)
-    t1.start() 
     
 def alarm(heure_definie):
     while True:
